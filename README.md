@@ -42,9 +42,15 @@ Answer: A mobile-first approach means that the website is designed to look good 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Answer: It provides a single point to calculate all future font-sizes off of, as opposed to em which compounds and also makes conversion easier since it's done by the power of 10 instead of 16.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Answer: Preprocessing is a process of using a separate syntax from CSS's own syntax to style a website. The new syntax will depend on the preprocessor being used and may sometimes provide new features unavailable in default CSS. Whatever gets written in the new syntax still gets converted to normal CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Answer: Favourite concept of preprocessing (with LESS) is nesting and what took the most time to understand was mixins.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
