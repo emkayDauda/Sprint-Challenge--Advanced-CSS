@@ -38,6 +38,8 @@ Answer: Responsive Websites respond to the width of the website at any moment. T
 
 2. Describe what it means to be mobile first vs desktop first.
 
+Answer: A mobile-first approach means that the website is designed to look good and be functional on mobile screen sizes first and then expanding to wider screens i.e. tablets and desktops.
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
 4. How would you describe preprocessing to someone new to CSS?
