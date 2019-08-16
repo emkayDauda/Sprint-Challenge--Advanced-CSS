@@ -190,6 +190,14 @@ nav div a:hover {
   transition: 0.1s ease-in-out;
   letter-spacing: 0.1rem;
 }
+@media (max-width: 500px) {
+  nav {
+    margin: 0;
+  }
+  nav div a {
+    margin: 0 1.5rem;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
