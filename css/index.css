@@ -167,6 +167,9 @@ nav {
   margin: 1rem 0 0 1rem;
   background: #F6F6F6;
   border: 1px solid #F1F1F1;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 nav a {
   text-decoration: none;
@@ -207,6 +210,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  margin-top: 12rem;
 }
 .home header img {
   border-radius: 0.8rem;
