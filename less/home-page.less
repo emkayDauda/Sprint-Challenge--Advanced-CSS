@@ -80,7 +80,7 @@
       }
 
       .btn {
-        .buttonifyDiv(@btn-bg-color, 2rem, 30%);
+        .buttonifyDiv(@btn-bg-color, 1rem, 30%);
       }
     }
 
@@ -93,6 +93,25 @@
         height: auto;
         border-radius: 10px;
       }
+    }
+
+    @media @phone {
+     flex-direction: column-reverse; 
+
+     padding: 2rem;
+     .walk-text {
+       width: 100%;
+
+       h3 {
+         font-size: 2rem;
+         margin: 1rem 0;
+       }
+       .btn {
+        .buttonifyDiv(@btn-bg-color, 1.5rem, 100%);
+        }
+      }
+
+      .walk-img { width: 100%; margin: 0;}
     }
   }
 }// home
