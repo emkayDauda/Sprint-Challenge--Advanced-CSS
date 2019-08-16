@@ -8,6 +8,7 @@ nav{
     background: @nav-bg;
     border: 1px solid @nav-border;
 
+    a { text-decoration: none;}
     h1{
         font-size: 4rem;
         padding: 1.5rem 0;
@@ -22,13 +23,7 @@ nav{
         font-size: 1.5rem;
         color: @nav-font;
 
-        transition: 0.1s ease-in-out;
-
-            &:hover {
-                color: silver;
-                transition: 0.1s ease-in-out;
-                letter-spacing: 0.1rem;
-            }
+        .colorChangeAnimation();
     }
    }
 }
