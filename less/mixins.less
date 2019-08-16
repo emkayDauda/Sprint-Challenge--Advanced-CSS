@@ -1,1 +1,28 @@
 // Mixins Here
+
+.colorChangeAnimation(@color: silver){
+    transition: 0.1s ease-in-out;
+
+            &:hover {
+                color: @color;
+                transition: 0.1s ease-in-out;
+                letter-spacing: 0.1rem;
+            }
+}
+
+.buttonifyDiv(@color: darkgray, @padding: 2rem, @width){
+    padding: @padding;
+    color: white;
+    font-size: 2rem;
+    background: @color;
+    width: @width;
+    text-align: center;
+    border-radius: 0.5rem;
+    transition: .2s ease-in-out;
+
+    &:hover {
+        background: lighten(@color, 50%);
+        color: @btn-bg-color;
+        transition: .2s ease-in-out;
+    }
+}

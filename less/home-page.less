@@ -2,6 +2,14 @@
 
 .home {
 
+  margin-top: 12rem;
+  header {
+    img {
+      border-radius: .8rem;
+      width: 100%;
+    }
+  }
+
   .intro {
 
     h2 {
@@ -24,6 +32,22 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+    }
+
+    @media @phone {
+      img {
+        width: 100%; 
+        margin: 2rem 3.5%;
+        // display: none;
+
+        &:nth-last-child(2){
+          display: none;
+        }
+
+        &:nth-last-child(1){
+          display: none;
+        }
+      }
     }
   }
 
@@ -58,6 +82,7 @@
       }
 
       .btn {
+        .buttonifyDiv(@btn-bg-color, 1rem, 30%);
       }
     }
 
@@ -70,6 +95,26 @@
         height: auto;
         border-radius: 10px;
       }
+    }
+
+    @media @phone {
+     flex-direction: column-reverse; 
+
+     margin-top: 2.5rem;
+     padding: 2rem;
+     .walk-text {
+       width: 100%;
+
+       h3 {
+         font-size: 2rem;
+         margin: 1rem 0;
+       }
+       .btn {
+        .buttonifyDiv(@btn-bg-color, 1.5rem, 100%);
+        }
+      }
+
+      .walk-img { width: 100%; margin: 0;}
     }
   }
 }// home
