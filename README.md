@@ -34,6 +34,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Answer: Responsive Websites respond to the width of the website at any moment. This is possible because responsive units (percentages) are used while designing the site. Adaptive websites adapt to the screen only at specific screen sizes and the width (and height) of elements are still hard-coded.
+
 2. Describe what it means to be mobile first vs desktop first.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
