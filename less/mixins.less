@@ -18,4 +18,11 @@
     width: @width;
     text-align: center;
     border-radius: 0.5rem;
+    transition: .2s ease-in-out;
+
+    &:hover {
+        background: lighten(@color, 50%);
+        color: @btn-bg-color;
+        transition: .2s ease-in-out;
+    }
 }
